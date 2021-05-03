@@ -13,7 +13,7 @@ body{
 /* HEADER */
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -106,10 +106,13 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 300px;
+    padding-right: 300px;
+  
 }
-
+.ban{
+    width: 100%;
+}
     
 #mesproduits{
     /* border: 2px solid red; */
@@ -122,8 +125,8 @@ main{
 .produit{
     /* border: 2px solid violet; */
     background-color: #f3f3f3;
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
     padding: 2px;
     padding-top: 10px;
     margin: 10px;
@@ -144,7 +147,6 @@ main{
 }
 .pourcentage{
     background-color: #3a3a3a;
-    
     height: 35px;
     display: flex;
     justify-content: center;
